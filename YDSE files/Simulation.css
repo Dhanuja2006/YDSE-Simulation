@@ -1,0 +1,192 @@
+body{
+    
+    background-color: white;
+    overflow: hidden;
+}
+canvas{
+    position: absolute;
+    top: 30%;
+    left: 65%;
+}
+.light-container1{
+    width: 20px;
+    height: 30px;
+    background-color:black;
+    margin-top: 25%; 
+}
+.light-container2{
+    width: 70px;
+    height: 70px;
+    background:radial-gradient(circle, white 40%, rgb(237, 237, 122) 70%);
+    border-radius: 50%;
+    position: absolute;
+    top: 59%;
+    left:5%;
+    transform: translate(-50%, -50%);
+  
+}
+.wave{
+    width: 500px;
+    height: 450px;
+    transform: translate(0px,-250px);
+    border : solid 10px rgb(101, 94, 94);
+    border-color:transparent rgb(75, 71, 71) transparent transparent;
+    overflow: hidden;
+}
+.wave-1{
+  border:solid 10px white ;  
+  border-color:white white white transparent;
+  border-radius: 100%;
+  top:30%;
+  left:-10%;
+  width: 120px;
+  height: 120px; 
+  position:absolute;
+  cursor: grab;
+  animation: slide 4s ease-in-out forwards;
+  animation-iteration-count: inherit;
+}
+@keyframes slide{
+    from{
+        width: 150px;
+        height: 150px;
+        top:30%;
+    }
+    to{
+        width: 590px;
+        height: 590px;
+        top:-5%;
+    }
+}
+.hole1{
+    border: solid 2px rgb(16, 15, 15) ;
+    background-color: white;
+    height: 30px;
+    width: 7px;
+    transform: translate(510px,-610px);
+}
+.hole2{
+    border: solid 2px rgb(16, 15, 15) ;
+    background-color: white;
+    height: 30px;
+    width: 7px;
+    transform: translate(510px,-450px);
+}
+.curve1{
+    width: 350px;
+    height: 450px;
+    transform: translate(510px,-790px);
+    border : solid 10px rgb(101, 94, 94);
+    border-color:transparent rgb(75, 71, 71) transparent transparent;
+    overflow: hidden;    
+}
+.wave-2{
+    border:solid 10px white ;   
+    border-color:white white white transparent;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius:70%;
+    border-top-left-radius: 70%;
+    top:15%;
+    left:-10%;
+    width: 120px;
+    height: 60px; 
+    position:absolute;
+    cursor: grab;
+    animation: slide1 4s ease-in-out forwards;
+    animation-iteration-count: inherit;
+    
+}
+@keyframes slide1{
+    from{
+        width: 130px;
+        height: 130px;
+        top:15%;
+    }
+    to{
+        width: 400px;
+        height: 400px;
+        top:-15%;
+    }
+}
+
+.wave-3{
+    border:solid 10px white;
+    
+    border-color:white white white transparent;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius:70%;
+    border-top-left-radius: 70%;
+    top:70%;
+    left:-10%;
+    width: 120px;
+    height: 60px; 
+    position:absolute;
+    cursor: grab;
+    animation: slide2 4s ease-in-out forwards;
+    animation-iteration-count: inherit;
+}
+@keyframes slide2{
+    from{
+        width: 130px;
+        height: 130px;
+        top:50%;
+    }
+    to{
+        width: 400px;
+        height: 400px;
+        top:25%;
+    }
+}
+.mybutton{
+    transform: translateY(-900px);
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+}
+.container{
+    transform: translate(870px,-1370px);
+    width: 100px;
+    height: 475px;
+    overflow: hidden;
+}
+.rectangle {
+    width: 100px;
+    height: 55px;
+    margin: 5px;
+    
+  }
+H1{
+    transform: translate(300px,-1920px);
+    color: black;
+}
+#colorRange{
+    transform: translate(1050px,-1920px);
+}
+H2{
+    transform: translate(1050px,-1990px);
+    color: black;
+}
+H3{
+    transform: translate(1050px,-2020px);
+    color: black;
+}
+#screendistance{
+    transform: translate(880px,-1870PX);
+}
+#sineWaveCanvas{
+    border-color: black;
+    left:67%;
+    top:45%;
+    transform: rotate(90deg);
+}
+.LOW{
+    width: 2px;
+    height:400px;
+    background-color:black;
+    transform: translate(1035px,-2030PX);
+}
+p{
+    transform: translate(1020px,-2040PX);
+}
